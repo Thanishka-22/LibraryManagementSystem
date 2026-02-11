@@ -70,10 +70,9 @@ Search Book Module
 View Book Details Module
 
    ![Screenshot 1](https://github.com/user-attachments/assets/e024b1bc-684a-4764-b14c-d61dd02dda0f)
-   ![Screenshot 2](https://github.com/user-attachments/assets/fa1c44b1-9109-4304-8901-20b24a28117)
-   ![Screenshot 3](https://github.com/user-attachments/assets/fa1c44b1-9109-4304-8901-20b24a28117)
-   ![Screenshot 4](https://github.com/user-attachments/assets/465a85aa-5fec-4e4b-8fd3-fdc8082a8f9c)
-   ![Screenshot 5](https://github.com/user-attachments/assets/3350adca-49c0-49a0-a889-618c04ec4ce3)
+   ![Screenshot 2](https://github.com/user-attachments/assets/790be958-9608-43f7-87fb-5f2c2b1befcb)
+   ![Screenshot 3](https://github.com/user-attachments/assets/465a85aa-5fec-4e4b-8fd3-fdc8082a8f9c)
+   ![Screenshot 4](https://github.com/user-attachments/assets/3350adca-49c0-49a0-a889-618c04ec4ce3)
 
 
 

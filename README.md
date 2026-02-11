@@ -43,8 +43,7 @@ com.kce.library
 │
 └── util
     └── DBUtil.java
-
-    
+ 
 🗃️ Database Tables
 
 📘 Author_Tbl

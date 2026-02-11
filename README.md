@@ -1,5 +1,79 @@
-This project is written in Java and is used to manage book records in a Library Management System.
-The program allows the administrator to add new books by entering details such as ISBN, book name, book type, author name, and cost.
-It also provides a search option where users can search for a book using its ISBN and view complete book and author information.
-The project validates the input data before storing it in the database, and if the entered details are invalid, it shows an error message instead of processing the request. 
-The main purpose of this project is to practice Java concepts such as Servlets, JDBC database connectivity, object-oriented programming, session handling, and web application development using Tomcat Server.
+📚 Library Management System (Java Web Application)
+
+📌 Project Description
+This is a Library Management System developed using Java Servlets, JDBC, and Oracle Database.
+The system allows the librarian/administrator to add books to the library and search/view book details using ISBN.
+It follows a layered architecture with Bean, DAO, Service, and Servlet layers.
+
+✨ Features
+ Add books to the library
+ Search books using ISBN
+ View complete book and author details
+ Validation for input data
+ Oracle database connectivity using JDBC
+ Web interface using HTML and Servlets
+
+🛠️ Technologies Used
+Java (JDK 8 or above)
+Java Servlets
+JDBC
+Oracle Database (XE)
+Apache Tomcat Server
+HTML
+Eclipse IDE
+Git & GitHub
+
+🏗️ Project Architecture
+com.kce.library
+│
+├── bean
+│   ├── BookBean.java
+│   └── AuthorBean.java
+│
+├── dao
+│   ├── BookDAO.java
+│   └── AuthorDAO.java
+│
+├── service
+│   └── Administrator.java
+│
+├── servlets
+│   ├── MainServlet.java
+│   └── ViewServlet.java
+│
+└── util
+    └── DBUtil.java
+
+    
+🗃️ Database Tables
+
+📘 Author_Tbl
+| Column Name | Data Type | Description    |
+| ----------- | --------- | -------------- |
+| Author_Code | NUMBER    | Primary Key    |
+| Author_Name | VARCHAR2  | Author Name    |
+| Contact_No  | NUMBER    | Contact Number |
+
+📕 Book_Tbl
+| Column Name | Data Type | Description                 |
+| ----------- | --------- | --------------------------- |
+| ISBN        | VARCHAR2  | Primary Key                 |
+| Book_Name   | VARCHAR2  | Book Title                  |
+| Book_Type   | CHAR      | G – General / T – Technical |
+| Author_Code | NUMBER    | Foreign Key (Author_Tbl)    |
+| Cost        | NUMBER    | Book Price                  |
+
+
+🧪 Modules Implemented
+
+Add Book Module
+Search Book Module
+View Book Details Module
+
+    <img width="751" height="555" alt="image" src="https://github.com/user-attachments/assets/e024b1bc-684a-4764-b14c-d61dd02dda0f" />
+    <img width="873" height="568" alt="image" src="https://github.com/user-attachments/assets/fa1c44b1-9109-4304-8901-20b24a281177" />
+    <img width="873" height="511" alt="image" src="https://github.com/user-attachments/assets/465a85aa-5fec-4e4b-8fd3-fdc8082a8f9c" />
+    <img width="846" height="473" alt="image" src="https://github.com/user-attachments/assets/3350adca-49c0-49a0-a889-618c04ec4ce3" />
+
+
+
